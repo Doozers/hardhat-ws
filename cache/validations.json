@@ -1,0 +1,303 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/Game.sol:Game": {
+        "src": "contracts/Game.sol:7",
+        "version": {
+          "withMetadata": "aaff62e71aaae4243578078fb24a2e8314948a7d4bb15a4b6531beb876c3e759",
+          "withoutMetadata": "bc6153746b102a3aa71ef555cb83d6e7f804b9c14b262cdf2701ab6ee55a3301",
+          "linkedWithoutMetadata": "bc6153746b102a3aa71ef555cb83d6e7f804b9c14b262cdf2701ab6ee55a3301"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "fakeConstrucotr()",
+          "register()",
+          "play()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Game",
+              "src": "contracts/Game.sol:8"
+            },
+            {
+              "label": "isRegistered",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_bool)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:13"
+            },
+            {
+              "label": "scoreOf",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.17"
+      }
+    },
+    {
+      "contracts/Game.sol:Game": {
+        "src": "contracts/Game.sol:7",
+        "version": {
+          "withMetadata": "3b20a62c59896ec60da93c4672f73b0aeddf91fe990876e0cb2fd34d0c754ff2",
+          "withoutMetadata": "4771f9812cdb33a3001d3c06f847b6bb17ca961a88ce24412ef958650055ac50",
+          "linkedWithoutMetadata": "4771f9812cdb33a3001d3c06f847b6bb17ca961a88ce24412ef958650055ac50"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "fakeConstrucotr()",
+          "register()",
+          "play()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Game",
+              "src": "contracts/Game.sol:8"
+            },
+            {
+              "label": "isRegistered",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_bool)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:13"
+            },
+            {
+              "label": "scoreOf",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.17"
+      }
+    },
+    {
+      "contracts/Game.sol:Game": {
+        "src": "contracts/Game.sol:7",
+        "version": {
+          "withMetadata": "aaff62e71aaae4243578078fb24a2e8314948a7d4bb15a4b6531beb876c3e759",
+          "withoutMetadata": "bc6153746b102a3aa71ef555cb83d6e7f804b9c14b262cdf2701ab6ee55a3301",
+          "linkedWithoutMetadata": "bc6153746b102a3aa71ef555cb83d6e7f804b9c14b262cdf2701ab6ee55a3301"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "fakeConstrucotr()",
+          "register()",
+          "play()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Game",
+              "src": "contracts/Game.sol:8"
+            },
+            {
+              "label": "isRegistered",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_bool)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:13"
+            },
+            {
+              "label": "scoreOf",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.17"
+      }
+    },
+    {
+      "contracts/Game.sol:Game": {
+        "src": "contracts/Game.sol:7",
+        "version": {
+          "withMetadata": "5deae0f11b33edc06885ad709db58b3ab9edb24960887d0b059adde5f7a077c4",
+          "withoutMetadata": "1e2ed90b27c2844c4864c79a2ced4b07879745969b293db4cd6cdec2cf4c094d",
+          "linkedWithoutMetadata": "1e2ed90b27c2844c4864c79a2ced4b07879745969b293db4cd6cdec2cf4c094d"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "()",
+          "register()",
+          "play()",
+          "transfer(address,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "Game",
+            "src": "contracts/Game.sol:16"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "owner",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_address",
+              "contract": "Game",
+              "src": "contracts/Game.sol:8"
+            },
+            {
+              "label": "isRegistered",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_mapping(t_address,t_bool)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:13"
+            },
+            {
+              "label": "scoreOf",
+              "offset": 0,
+              "slot": "2",
+              "type": "t_mapping(t_address,t_uint256)",
+              "contract": "Game",
+              "src": "contracts/Game.sol:14"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_bool": {
+              "label": "bool",
+              "numberOfBytes": "1"
+            },
+            "t_mapping(t_address,t_bool)": {
+              "label": "mapping(address => bool)",
+              "numberOfBytes": "32"
+            },
+            "t_mapping(t_address,t_uint256)": {
+              "label": "mapping(address => uint256)",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true
+        },
+        "solcVersion": "0.8.17"
+      }
+    }
+  ]
+}
